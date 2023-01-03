@@ -58,4 +58,8 @@ function swap(array, i, j) {
 // quickSort(numbers);
 // console.log("after: ", numbers);
 
+let ss = [2,0,2,1,1,0]
+quickSort(ss)
+console.log('ss: ',ss)
+
 module.exports = quickSort;
